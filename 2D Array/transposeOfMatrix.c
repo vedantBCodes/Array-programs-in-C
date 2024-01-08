@@ -7,16 +7,16 @@ void transposeOfMatrix(int arr[10][10],int rows,int cols)
     {
         for(j=0;j<cols;j++)
         {
-            printf("%d ",arr[i][j]);
+            printf("%d \t",arr[i][j]);
         }
         printf("\n");
     }
     printf("Transpose of entered matrix:\n");
-    for(i=0;i<rows;i++)
+    for(i=0;i<cols;i++)
     {
-        for(j=0;j<cols;j++)
+        for(j=0;j<rows;j++)
         {
-            printf("%d ",arr[j][i]);
+            printf("%d \t",arr[j][i]);
         }
         printf("\n");
     }
